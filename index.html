@@ -12,17 +12,28 @@
 </head>
 
 <body class="container mt-4">
-    <header class="bg-dark text-light p-4 light-shadow">
-        <h3 class="headline">Isabella Hof</h3>
+    <header>
+        <nav id="navbar-example2" class="navbar navbar-light bg-dark">
+            <a class="navbar-brand" href="#">Isabella Hof</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Work</a>
+                </li>
+            </ul>
+        </nav>
+
     </header>
     <main class="row mb-6">
         <section class="col-md-8">
-            <div class="row bg-light p-3 mx-0">
-                <div class="col-sm-4">
+            <div class="row bg-light p-4 mx-0">
+                <div class="col-sm-4 pl-0">
                     <img src="img/IMG_6516_blau.jpg" class="img-fluid" alt="porait Isabella Hof">
                 </div>
                 <div class="col-sm-8">
-                    <h3>About</h3>
+                    <h3 class="headline">About</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
                         et dolore magna aliquyam erat, sed diam voluptua.</p>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
@@ -32,88 +43,78 @@
 
         <section class="col-md-4 d-flex">
             <div class="bg-light p-3">
-                <h3>Skills</h3>
-
-
+                <h3 class="headline">Skills</h3>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <div class="badge-dark text-white p-2 mb-2 box-color-specify">html5</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge-dark text-white p-2 mb-2">Shell Basics</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge-dark text-white p-2 mb-2">Responsive Design</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge-dark text-white p-2 mb-2">Bootstrap</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge-dark text-white p-2 mb-2">Webdesign</div>
+                    </li>
+                </ul>
             </div>
-
         </section>
-        <div class="col-sm-2 px-0">
-            <img src="./img/IMG_8636_SW.jpg" class="img-fluid" alt="Portrait">
-        </div>
-        <div class="col-sm-6">
-            <div class="class">
-                <h2 class="text-primary">About</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sesdvGLSjvlkjsvlKJSHLVkjhlshgfsjfgkjsdghs no sea
-                    takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                    est Lorem ipsum dolor sit amet.</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <h2 class="text-primary">Skills</h2>
-            <ul class="list-inline">
-                <li class="badge badge-primary">html</li>
-                <li class="badge badge-primary">css</li>
-                <li class="badge badge-primary">Responsive Web Design</li>
-                <li class="badge badge-primary">Design</li>
-                <li class="badge badge-primary">Projektleitung</li>
-            </ul>
-        </div>
-        </section>
-        <section class="container px-0 mt-4">
-            <div class="row mt-4">
-                <div class="col-sm-6">
-                    <h2 class="text-primary">Work</h2>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sesdvGLSjvlkjsvlKJSHLVkjhlshgfsjfgkjsdghs no
-                        sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="col-sm-6">
-                    <img src="https://images.unsplash.com/photo-1531828762254-f89b3be3df0f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8cc8d8109b5cbd4e1e0e2c102ce34344&auto=format&fit=crop&w=3300&q=80"
-                        class="img-fluid" alt="computer">
-                </div>
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="row">
-                    <h1 class="col d-none d-lg-block bg-sucess">desktop</h1>
-                    <h1 class="col d-none d-md-block d-lg-none bg-success">tablet</h1>
-                    <h1 class="col d-sm-none bg-sucess">mobile</h1>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-lg-3 col-md-6  bg-white">
-                        <div class="bg-light py-5 text-center">box1</div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 bg-white">
-                        <div class="bg-light py-5 text-center">box2
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 bg-white">
-                        <div class="bg-light py-5 text-center">box3</div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 bg-white">
-                        <div class="bg-light py-5 text-center">box4</div>
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
-
 
     </main>
 
-    <footer>
-        <div class="container mt-4">
-            <div class="row mb-4 bg-light">
-                <a class="text-danger" href="./imprint.html">Imprint</a>
-            </div>
+    <section class="mb-4 row text-center">
+        <div class="col-12 mb-4">
+            <div class="d-md-none headline">Mobile</div>
+            <div class="d-none d-md-block d-lg-none headline">Tablet</div>
+            <div class="d-none d-lg-block headline mt-5">Desktop</div>
         </div>
+
+        <div class="mb-3 mb-md-0 col-md-6 col-lg-3">
+            <div class="bg-light py-3">1</div>
+        </div>
+        <div class="mb-3 mb-md-0 col-md-6 col-lg-3">
+            <div class="bg-light py-3">2</div>
+        </div>
+        <div class="mb-3 mb-md-0 col-md-6 col-lg-3">
+            <div class="bg-light py-3">3</div>
+        </div>
+        <div class="mb-3 mb-md-0 col-md-6 col-lg-3">
+            <div class="bg-light py-3">4</div>
+        </div>
+    </section>
+
+
+    <nav class="row d-flex">
+        <div class="col-4 mr-auto">
+            <img src="img/IMG_8636_SW.jpg" class="img-thumbnail" alt="">
+        </div>
+
+        <a href="" class="">about</a>
+        <a href="">work</a>
+    </nav>
+
+    <nav id="navbar-example2" class="navbar navbar-light bg-dark">
+        <a class="navbar-brand" href="#">Isabella Hof</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link text-danger" href="">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Work</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <footer>
+        <div class="row mb-4 bg-dark my-5">
+            <a class="text-white p-5" href="./imprint.html">Imprint</a>
+        </div>
+
     </footer>
 
     <!-- hinweis Reihenfolge ist wichtig / vll js/bootstrap.min.js -->

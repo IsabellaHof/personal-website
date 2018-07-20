@@ -1,11 +1,12 @@
-.light-shadow {
-  box-shadow: 2px 8px 16px silver;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .headline {
-  font-family: "Roboto", sans-serif;
+  font-family: monospace;
+  font-size: 32px;
+  color: #2c3b8c;
 }
-
-body {
-  font-family: "Roboto", sans-serif;
+.box-color-specify {
+  background-color: #2c3b8c;
 }
