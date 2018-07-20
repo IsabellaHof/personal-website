@@ -1,0 +1,11 @@
+.light-shadow {
+  box-shadow: 2px 8px 16px silver;
+}
+
+.headline {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
