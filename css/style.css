@@ -66,7 +66,7 @@ body {
   list-style: none;
 }
 .footer-boxcolor {
-  background-color: #f8f9fa;
+  background-color: lightgrey;
 }
 .wrapper {
   display: flex;
@@ -89,3 +89,4 @@ body {
 .move-left {
   margin-left:  auto;
 }
+

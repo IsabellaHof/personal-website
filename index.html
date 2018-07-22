@@ -14,20 +14,21 @@
 <body>
     <header>
         <section class="row color-blue">1</section>
-        <div class="row bg-white my-1 py-4 text-center">
+        <div class="row bg-white my-1 py-4 text-center" id="beginning">
             <div class="col">
                 <img src="img/Logo_ih100.jpg" class="img-fluid" alt="">
             </div>
         </div>
         <nav id="navbar-example2 " class="navbar navbar-light bg-white ml-4">
-            <a class="navbar-brand nav-font-sans-blue " href="#">
+            <a class="navbar-brand nav-font-sans-blue " href="">
                 <strong>Isabella Hof</strong> | Kommunikationsdesign</a>
             <ul class="nav nav-pills ">
+
                 <li class="nav-item ">
-                    <a class="nav-link text-uppercase nav-font-sans-blue" href=" ">About</a>
+                    <a class="nav-link text-uppercase nav-font-sans-blue" href="#work">Work</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-uppercase nav-font-sans-blue" href=" ">Work</a>
+                    <a class="nav-link text-uppercase nav-font-sans-blue" href="#about">About</a>
                 </li>
             </ul>
         </nav>
@@ -48,7 +49,7 @@
     <main>
         <!-- WORK -->
         <section class="row mb-5">
-            <div class="col mt-5">
+            <div class="col mt-5" id="work">
                 <h1 class="text-uppercase text-center h1-font-sans ">
                     <strong>work</strong>
                     <hr>
@@ -187,7 +188,7 @@
 
         <!-- ABOUT-->
         <section class="row mb-5">
-            <div class="col mt-5">
+            <div class="col mt-5" id="about">
                 <h1 class="text-uppercase text-center h1-font-sans ">
                     <strong>About</strong>
                     <hr>
@@ -285,7 +286,10 @@
     <footer>
         <section class="wrapper">
             <div class="box-footer pl-5">
-                <img src="img/Logo_ih100_transparenz.png" class="img-fluid" alt="logo">
+                <a href="#beginning">
+                    <img src="img/Logo_ih100_transparenz.png" class="img-fluid" alt="logo">
+                </a>
+
             </div>
             <div class="box-footer p-5">
                 <a class="nav-font-sans-blue text-uppercase" href="./imprint.html ">Imprint</a>
