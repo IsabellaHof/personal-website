@@ -3,10 +3,91 @@ body {
 }
 
 .headline {
-  font-family: monospace;
-  font-size: 32px;
   color: #2c3b8c;
+.color-blue {
+  background: blue;
+  color: blue;
 }
+
+.nav-font-sans {
+  font-family: "Open+Sans:700", sans-serif;
+  font-size: 20px;
+}
+
+.nav-font-sans-blue {
+  font-family: "Open+Sans:700", sans-serif;
+  font-size: 20px;
+  color: blue;
+}
+
+.h1-font-sans {
+  font-family: "Open+Sans:700", sans-serif;
+  font-size: 40px;
+}
+
 .box-color-specify {
-  background-color: #2c3b8c;
+  background-color: blue;
+  font-family: "Open+Sans:700", sans-serif;
+  font-size: 20px;
+}
+
+.font-box {
+  font-family: "Open+Sans:700", sans-serif;
+  font-size: 20px;
+  color: blue;
+}
+
+.p-big {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.info-text {
+  font-family: "Open+Sans:700", sans-serif;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.box-specify-inc-font {
+  background-color: blue;
+  color: white;
+  font-family: "Open+Sans:700", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  height: 400px;
+  padding: 150px 10px;
+}
+.font-about-klein {
+  font-size: 30px;
+  color: black;
+}
+.vita-special-list li {
+  font-family: "Open+Sans:700", sans-serif;
+  padding-top: 10px;
+  font-size: 22px;
+  list-style: none;
+}
+.footer-boxcolor {
+  background-color: #f8f9fa;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start
+  align-items: center;
+  height: 250px;
+  background-color: lightgrey;
+}
+
+.box-footer {
+  width: 100px
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  margin-left: 20px;
+  margin-top: 50px
+}
+
+.move-left {
+  margin-left:  auto;
 }
